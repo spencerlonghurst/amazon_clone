@@ -45,6 +45,16 @@
   font-weight: 800;
 }
 
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header_basketCount {
+  margin: 0px 10px;
+}
+
 .header_nav {
   display: flex;
   justify-content: space-evenly;
