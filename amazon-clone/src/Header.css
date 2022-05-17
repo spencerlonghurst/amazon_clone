@@ -14,3 +14,45 @@
   margin: 0 20px;
   margin-top: 18px;
 }
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 80%; /* MAYBE TRY AS 100% LATER */
+}
+
+.header_searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header_optionLineOne {
+  font-size: 12px;
+  font-weight: 700;
+
+}
+
+.header_optionLineTwo {
+  font-weight: 800;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  color: white;
+}
