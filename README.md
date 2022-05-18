@@ -13,3 +13,5 @@ dependencies installed:
 
 
   Push items to The data layer, or the React Context API (similar to Redux)
+
+  Learned about using the optional chaining method: ?.
