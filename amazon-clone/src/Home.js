@@ -30,7 +30,7 @@ function Home() {
         <div className='home_row'>
         <Product
             id='0003'
-            title='SAMSUNG 49" Odyssey Neo G9 G95NA Gaming Monitor, 4K UHD Mini LED Display, Curved Screen, 240Hz, 1ms, G-Sync and FreeSync Premium Pro, LS49AG952NNXZA, Black'
+            title='SAMSUNG 49" Odyssey Neo G9 G95NA Gaming Monitor, 4K UHD Mini LED Display, Curved Screen, 240Hz,'
             price={1850.99}
             rating={4}
             image='https://m.media-amazon.com/images/I/81gf+wgrcfS._AC_UY436_FMwebp_QL65_.jpg'

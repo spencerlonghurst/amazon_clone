@@ -27,7 +27,7 @@
   height: 12px;
   padding: 10px;
   border: none;
-  width: 80%; /* MAYBE TRY AS 100% LATER */
+  width: 100%; /* MAYBE TRY AS 100% LATER */
 }
 
 .header_searchIcon {
