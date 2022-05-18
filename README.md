@@ -10,3 +10,6 @@ dependencies installed:
   -Material UI/icons-material
   -react-router-dom
   -react-currency-format --save --force
+
+
+  Push items to The data layer, or the React Context API (similar to Redux)
