@@ -1,15 +1,20 @@
 import './App.css';
 import Header from './Header';
 import Home from './Home'
-import { browserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="app">
+    <Router>
 
-    <Header />
-    <Home />
-    </div>
+      <div className="app">
+        <Routes>
+          <Route path='/checkout' element={<><Header /></>} />
+          <Route path='/' element={<><Header/><Home/></>} />
+        </Routes>
+      </div>
+
+    </Router>
   );
 }
 
