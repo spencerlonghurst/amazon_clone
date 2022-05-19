@@ -17,33 +17,6 @@ function Checkout() {
         <div>
           <h2 className="checkout_title">Your Shopping Basket</h2>
 
-            <CheckoutProduct
-              id={23423}
-              title='some erhre he rghe  he he heherjerhg ehvje'
-              image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._ACSY400_.jpg'
-              price={19.99}
-              rating={5}
-            />
-
-            <CheckoutProduct
-              id={23423}
-              title='some erhre he rghe  he he heherjerhg ehvje'
-              image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._ACSY400_.jpg'
-              price={19.99}
-              rating={5}
-            />
-
-            <CheckoutProduct
-              id={23423}
-              title='some erhre he rghe  he he heherjerhg ehvje'
-              image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._ACSY400_.jpg'
-              price={19.99}
-              rating={5}
-            />
-
-
-
-
           {basket.map(item => {
             return <CheckoutProduct
               id={item.id}
@@ -53,11 +26,6 @@ function Checkout() {
               rating={item.rating}
             />
           })}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-
 
         </div>
       </div>
