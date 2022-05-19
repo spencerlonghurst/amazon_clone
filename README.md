@@ -12,6 +12,8 @@ dependencies installed:
   -react-currency-format --save --force
 
 
-  Push items to The data layer, or the React Context API (similar to Redux)
+Push items to The data layer, or the React Context API (similar to Redux)
 
-  Learned about using the optional chaining method: ?.
+Learned about using the optional chaining method: ?.
+
+Learned about createContext, useContext, useReducer
