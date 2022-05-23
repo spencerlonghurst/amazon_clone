@@ -11,6 +11,8 @@ dependencies installed:
   -react-router-dom
   -react-currency-format --save --force
   -sudo npm i -g firebase-tools
+  -@stripe/stripe-js
+  -@stripe/react-stripe-js
 
 
 Push items to The data layer, or the React Context API (similar to Redux)
