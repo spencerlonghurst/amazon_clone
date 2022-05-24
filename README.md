@@ -44,3 +44,4 @@ To build out the backend:
 -npm i cors
 -npm i stripe
 -firebase emulators:start (used to spin up a local server)
+-npm i moment
