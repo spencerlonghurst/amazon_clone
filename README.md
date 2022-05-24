@@ -13,6 +13,7 @@ dependencies installed:
   -sudo npm i -g firebase-tools
   -@stripe/stripe-js
   -@stripe/react-stripe-js
+  -axios
 
 
 Push items to The data layer, or the React Context API (similar to Redux)
@@ -26,3 +27,20 @@ potentially add react flip move
 -ran firebase login
 -ran firebase init (Hosting, use an existing project, 'select project'... public directory: build, single-page: Yes)
 -ran npm run build
+
+
+/// BACKEND ///
+
+To build out the backend:
+  -firebase init
+  -Function: Configure a Cloud Functions directory and its files
+  -Javascript
+  -ESLint: yes
+  -install dependencies: yes
+
+-Express app hosted on a cloud function
+
+-npm i express
+-npm i cors
+-npm i stripe
+-firebase emulators:start (used to spin up a local server)
