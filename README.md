@@ -45,3 +45,11 @@ To build out the backend:
 -npm i stripe
 -firebase emulators:start (used to spin up a local server)
 -npm i moment
+
+
+DEPLOY BACKEND
+
+firebase deploy --only functions (this deploys just the backend)
+
+///  CHECK THE LIGHT GRAY BUTTON IN CSS ///
+
