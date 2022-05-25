@@ -53,3 +53,6 @@ firebase deploy --only functions (this deploys just the backend)
 
 ///  CHECK THE LIGHT GRAY BUTTON IN CSS ///
 
+-npm run build
+-firebase deploy --only hosting
+
